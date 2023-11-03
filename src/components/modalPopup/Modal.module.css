@@ -1,0 +1,25 @@
+.backdrop{
+    position: absolute;
+    background: rgb(128, 125, 125);
+    top: 0; right: 0; bottom: 0; left: 0;
+    opacity: 0.5;
+}
+.modalDiv{
+    background: white;
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 20px;
+}
+.closeButton{
+    position: absolute;
+    background: red;
+    color: white;
+    right: 20px;
+    bottom: 20px;
+    text-transform: none;
+}

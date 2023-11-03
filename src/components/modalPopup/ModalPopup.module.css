@@ -1,0 +1,14 @@
+.heading{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.modalContainer{
+    margin: 0 30px;
+    /* position: relative; */
+}
+.modalButton{
+    background: #2a8b8b;
+    padding: 15px 30px;
+    color: white;
+}

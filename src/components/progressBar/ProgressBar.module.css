@@ -1,0 +1,40 @@
+.heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.bg_progress {
+  position: relative;
+  width: 50%;
+  height: 1rem;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: rgb(0 0 255 / 10%);
+  border-radius: 50px;
+  margin-bottom: 40px;
+}
+.acive_progress {
+  position: absolute;
+  width: 100%;
+  height: 1rem;
+  /* margin: 0 auto; */
+  background-color: rgb(0 0 255 / 50%);
+  /* transition: transform ease-in 0.5ms; */
+}
+.control_btn_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 auto;
+}
+.control_btn{
+    background: #c14592;
+    width: 100px;
+    color: white;
+    text-transform: none;
+    cursor: pointer;
+}
+.control_btn:disabled{
+    cursor: not-allowed;
+    opacity: 50%;
+}

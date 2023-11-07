@@ -10,6 +10,7 @@ const ModalPopup = () => {
   return (
     <div>
       <div className={styles.heading}>ModalPopup</div>
+      <div><input type="range" name="range"  /></div>
       <div className={styles.modalContainer}>
         <button
           className={styles.modalButton}

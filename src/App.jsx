@@ -5,6 +5,7 @@ import Accordion from './components/accordin/Accordion'
 import ModalPopup from './components/modalPopup/ModalPopup'
 import ProgressBar from './components/progressBar/ProgressBar'
 import InfiniteScroll from './components/infiniteScroll/InfiniteScroll'
+import MultiStepper from './components/multiStepper/MultiStepper'
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
     // <Accordion/>
     // <ModalPopup/>
     // <ProgressBar/>
-    <InfiniteScroll/>
+    // <InfiniteScroll/>
+    <MultiStepper/>
   )
 }
 

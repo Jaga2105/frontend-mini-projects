@@ -6,6 +6,8 @@ import ModalPopup from './components/modalPopup/ModalPopup'
 import ProgressBar from './components/progressBar/ProgressBar'
 import InfiniteScroll from './components/infiniteScroll/InfiniteScroll'
 import MultiStepper from './components/multiStepper/MultiStepper'
+import SlideShow from './slideShow/SlideShow'
+import ModalSlider from './components/modalSlider/ModalSlider'
 
 const App = () => {
   return (
@@ -15,7 +17,10 @@ const App = () => {
     // <ModalPopup/>
     // <ProgressBar/>
     // <InfiniteScroll/>
-    <MultiStepper/>
+    // <MultiStepper/>
+    // <SlideShow/>
+    <ModalSlider/>
+    
   )
 }
 

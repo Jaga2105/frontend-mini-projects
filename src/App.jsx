@@ -11,7 +11,7 @@ import ModalSlider from './components/modalSlider/ModalSlider'
 
 const App = () => {
   return (
-    // <Counter/>
+    <Counter/>
     // <PasswordGenerator/>
     // <Accordion/>
     // <ModalPopup/>
@@ -19,7 +19,7 @@ const App = () => {
     // <InfiniteScroll/>
     // <MultiStepper/>
     // <SlideShow/>
-    <ModalSlider/>
+    // <ModalSlider/>
     
   )
 }
